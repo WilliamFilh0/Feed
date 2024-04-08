@@ -11,17 +11,16 @@ export function Post() {
             alt="Foto do Avatar"
           />
           <div className={styles.authorInfo}>
-            <span>William Filho</span>
-            <strong>Web Developer</strong>
+            <strong>William Filho</strong>
+            <span>Web Developer</span>
           </div>
         </div>
-
         <time title="11 de maio às 08:13" dateTime="2024-08-04 08:13:30">
           Publicado há 1h
         </time>
       </header>
 
-      <div className={styles.component}>
+      <div className={styles.content}>
         <p>Fala galera</p>
 
         <p>
@@ -31,13 +30,12 @@ export function Post() {
         </p>
 
         <p>
-          {" "}
-          <a href="">👉 jane.design/doctorcare</a>
+          <a href=""> jane.design/doctorcare</a>
         </p>
 
         <p>
-          {" "}
-          <a href="">#novoprojeto #nlw #rocketseat</a>
+          <a href="">#novoprojeto</a> <a href="">#nlw</a>{" "}
+          <a href="">#rocketseat</a>
         </p>
       </div>
     </article>
