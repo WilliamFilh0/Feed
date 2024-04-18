@@ -50,8 +50,6 @@ const posts = [
   },
 ];
 
-//iteração - repetir alguma coisa. Percoreer o array epra cada posição do array eu vou fazer alguma coisa
-
 export function App() {
   return (
     <div>
@@ -63,6 +61,7 @@ export function App() {
           {posts.map((post) => {
             return (
               <Post
+                key={post.id}
                 author={post.author}
                 content={post.content}
                 publishedAt={post.publishedAt}
