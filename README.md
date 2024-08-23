@@ -2,14 +2,14 @@
 
 ## Introdução
 
-Este projeto é um protótipo de feed interativo desenvolvido com TypeScript, React, CSS Modules, Phosphor React, Date-fns e Vite. Permite criar, postar e excluir comentários, com a possibilidade de incluir qualquer conteúdo e links nos comentários. Os usuários podem curtir comentários, e os perfis são fixos, proporcionando uma experiência de feed social dinâmica e funcional.
+Este projeto é um protótipo de feed interativo desenvolvido com JavaScript, React, CSS Modules, Phosphor React, Date-fns e Vite. Permite criar, postar e excluir comentários, com a possibilidade de incluir qualquer conteúdo e links nos comentários. Os usuários podem curtir comentários, e os perfis são fixos, proporcionando uma experiência de feed social dinâmica e funcional.
 
 ## Tecnologias
 
 - **React**: Biblioteca JavaScript para a construção de interfaces de usuário.
-- **TypeScript**: Superset do JavaScript que adiciona tipagem estática e recursos de desenvolvimento mais robustos.
+- **JavaScript**: Linguagem de programação utilizada no desenvolvimento do projeto.
 - **Vite**: Ferramenta de build rápida e moderna que proporciona uma experiência de desenvolvimento ágil.
-- **ESLint**: Ferramenta para encontrar e corrigir problemas em seu código JavaScript/TypeScript.
+- **ESLint**: Ferramenta para encontrar e corrigir problemas em seu código JavaScript.
 - **Date-fns**: Biblioteca para manipulação de datas.
 - **Phosphor-react**: Conjunto de ícones para React.
 
